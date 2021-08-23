@@ -87,11 +87,12 @@ const Wrapper = styled.section`
     p {
       margin-bottom: 0;
     }
+    .form-input,
+    .submit-btn {
+      font-size: 1rem;
+    }
   }
-  .form-input,
-  .submit-btn {
-    font-size: 1rem;
-  }
+
   @media (min-width: 1280px) {
     padding: 15rem 0;
   }
